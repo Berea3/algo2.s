@@ -1,0 +1,5 @@
+n-q+r=2
+r=2+q-n
+n=numar noduri
+r=numar fete cu tot cu cea exterioara
+m=numar muchii

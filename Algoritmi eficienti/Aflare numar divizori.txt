@@ -1,0 +1,30 @@
+#include <iostream>
+
+using namespace std;
+long long int x,e,nd,d;
+
+int main()
+{
+    cin>>x;
+    e=0;
+    while (x%2==0)
+    {
+        e++;
+        x=x/2;
+    }
+    nd=e+1;
+    d=3;
+    while (d*d<=x)
+    {
+        e=0;
+        while (x%d==0)
+        {
+            e++;
+            x=x/d;
+        }
+        nd=nd*(e+1);
+        d=d+2;
+    }
+    if (x!=1) nd=nd*2;                                                                             // nd este numarul de divizori
+    cout<<"Numarul de divizori este "<<nd;
+}

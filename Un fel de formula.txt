@@ -1,0 +1,9 @@
+Se da sirul:
+1                                      // sirul numarul 1
+2 3                                    // sirul numarul 2
+4 5 6                                  // sirul numarul 3
+7 8 9 10                               // sirul nuamrul 4
+- - - - - - -                          // sirul n
+
+Pentru a calcula primul termen din sirul cu numarul n se aplica formula n*(n-1)/2+1
+Pentru a calcula ultimul termen din sirul cu numarul n se aplica formula n*(n+1)/2

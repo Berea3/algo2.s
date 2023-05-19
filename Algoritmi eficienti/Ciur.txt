@@ -1,0 +1,26 @@
+#include <iostream>
+//#include <fstream>
+#include <bitset>
+#include <algorithm>
+
+using namespace std;
+const int MAXN=1e6+5;
+int n,i,j,maxi;
+int v[MAXN],d[MAXN];
+bitset<MAXN>b;
+
+//ifstream cin("pdi.in");
+//ofstream cout("pdi.out");
+
+void ciur()
+{
+    for (i=3;i<=1000000;i+=2) b[i]=true;
+    b[3]=true;
+    for (i=3;i<=50;i=i+2)
+    {
+        if (b[i]==true)
+        {
+            for (j=i+i;j<=50;j=j+i) b[j]=false;
+        }
+    }
+}

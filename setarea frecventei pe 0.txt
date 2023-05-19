@@ -1,0 +1,9 @@
+#include <cstring>
+
+using namespace std;
+int viz[MAXN];
+
+int main()
+{
+	memset(viz,0,sizeof(viz));
+}

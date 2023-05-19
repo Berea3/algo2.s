@@ -1,0 +1,1 @@
+Numărul de cicluri hamiltoniene diferite într-un graf neorientat complet de n noduri este (n − 1)! / 2 și într-un graf orientat complet de n noduri este (n − 1)!. Aceste afirmații se bazează pe presupunerea că ciclurile care sunt aceleași cu excepția punctului de plecare nu sunt luate în calcul separat.
